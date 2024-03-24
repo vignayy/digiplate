@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DigiPlate</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>DigiPlate</h1>
+    <p class="description">
+        DigiPlate helps you find the perfect vehicle registration numbers based on numerology, luck, and your personal preferences
+        <br>
+        Enter your criteria, and we'll show you curated options that match your style!
+    </p>
+    <form id="generatorForm">
+      <label for="startRange">Starting Range:</label>
+      <input type="number" id="startRange" name="startRange" required>
+
+      <label for="endRange">Ending Range:</label>
+      <input type="number" id="endRange" name="endRange" required>
+
+      <label for="baseNumber">Base Number:</label>
+      <select id="baseNumber" name="baseNumber" required>
+        <option value="">Select</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="includeIncreasingOrder" name="includeIncreasingOrder">
+        <label for="includeIncreasingOrder">Increasing Order</label>
+      </div>
+
+      <button type="submit">Generate Numbers</button>
+    </form>
+
+    <div id="generatedNumbers" class="generated-numbers"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
