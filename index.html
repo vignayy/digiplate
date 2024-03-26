@@ -5,15 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DigiPlate</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/ico" href="res/DigiPlateLogo.ico">
+
+  <!-- Jetpack Open Graph Tags -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Digi Plate"/>
+  <meta property="og:description" content="Vehicle Number Plate Generator"/>
+  <meta property="og:url" content="https://vignayy.github.io/digiplate/"/>
+  <meta property="og:site_name" content="Digi Plate"/>
+  <meta property="og:image" content="https://vignayy.github.io/digiplate/res/DigiPlateLogoS.png=200"/>
+  <meta property="og:image:width" content="200"/>
+  <meta property="og:image:height" content="200"/>
+  <meta property="og:image:alt" content="DigiPlate Logo"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="fb:app_id" content="249643311490"/>
+
 </head>
 <body>
   <div class="container">
-    <h1>DigiPlate</h1>
+    <div class="header">
+      <div class="logo-container">
+        <a href="index.html">
+          <img src="res/DigiPlateLogoCmp.png" alt="DigiPlate Logo" class="logo">
+        </a>
+      </div>
+      <div class="header-text">DigiPlate</div>
+      <div class="credits">
+        <p> <a href="https://github.com/vignayy" target="_blank">
+          <img src="res/code2.svg" alt="Coder Logo" class="credits-logo"></a>
+          <br>
+          Vignay Bandari</p>
+        <a href="https://github.com/vignayy/digiplate" target="_blank">
+          <img src="res/github1.svg" alt="GitHub Logo" class="credits-logo"></a>
+        <a href="https://www.linkedin.com/in/vignaybandari" target="_blank">
+          <img src="res/linkedin2.svg" alt="LinkedIn Logo" class="credits-logo"></a>
+      </div>
+    </div>
+    
     <p class="description">
-        DigiPlate helps you find the perfect vehicle registration numbers based on numerology, luck, and your personal preferences
-        <br>
-        Enter your criteria, and we'll show you curated options that match your style!
+      DigiPlate helps you find the perfect vehicle registration numbers based on numerology, luck, and your personal preferences.
+      <br>
+      Enter your criteria, and we'll show you curated options that match your style!
     </p>
+    
     <form id="generatorForm">
       <label for="startRange">Starting Range:</label>
       <input type="number" id="startRange" name="startRange" required>

@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const includeIncreasingOrder = form.elements['includeIncreasingOrder'].checked;
   
       // Validate range and base number
-      if (startRange >= endRange || startRange < 0 || endRange < 0 || baseNumber < 1 || baseNumber > 9) {
+      if (startRange < 1 || startRange >= endRange || endRange < 1 || baseNumber < 1 || baseNumber > 9 || isNaN(startRange) || isNaN(endRange) || isNaN(baseNumber)) {
         alert('Please enter valid inputs.');
         return;
       }
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function hasIncreasingDigits(number) {
       const digits = number.toString().split('').map(Number);
       for (let i = 0; i < digits.length - 1; i++) {
-        if (digits[i] >= digits[i + 1]) {
+        if (digits[i] > digits[i + 1]) {
           return false;
         }
       }
