@@ -6,20 +6,20 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #F0F3FA;
+  background-color: #D5DEEF;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px;
 }
 
 .container {
   max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
+  margin: 5px auto;
+  padding: 10px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
 
 .header {
@@ -70,7 +70,7 @@ body {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  font-size: 18px;
+  font-size: 14px;
   margin-bottom: 20px;
   color: #393939;
   background-color: #F0F3FA;
@@ -110,7 +110,7 @@ button {
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
-  border: none;
+  border: 1.5px solid #393939;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -126,6 +126,7 @@ button:hover {
   border: 1px solid #393939;
   border-radius: 5px;
   background-color: #F0F3FA;
+  font-family:'Arial', Helvetica, sans-serif;
   overflow-wrap: break-word;
   white-space: pre-line;
   overflow-y: auto;

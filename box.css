@@ -1,9 +1,9 @@
 :root {
   --box-background: #F0F3FA;
   /* --box-background: #393939; */
-  --secondary: #393939;
+  --secondary: #003554;
   /* --secondary: #F1F1F1; */
-  --primary: #032030;
+  --primary: #000000;
 }
 
 
@@ -15,7 +15,7 @@
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   border-radius: 1rem;
-  
+  border: 1px solid #000000;
 }
 
 #enter{
