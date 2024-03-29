@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       }
   
-      generatedNumbers.textContent = generated.join(', ');
+      generatedNumbers.textContent = generated.join('\n');
     });
   
     // Function to calculate digital root of a number

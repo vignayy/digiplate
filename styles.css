@@ -1,8 +1,17 @@
-body {
-  font-family: Arial, sans-serif;
+* {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F0F3FA;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -20,7 +29,8 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
-  border: 1px solid #ddd;
+  background-color: #fff;
+  border: 1px solid #393939;
   border-radius: 5px;
   padding: 0.5rem;
 }
@@ -54,16 +64,19 @@ body {
 .credits-logo {
   width: 20px;
   height: 20px;
-  margin: 0 2px;
+  margin: 2px 3px;
   vertical-align: middle;
 }
 
 .description {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   font-size: 18px;
   margin-bottom: 20px;
-  color: #333;
+  color: #393939;
+  background-color: #F0F3FA;
+  border-radius: 5px;
   text-align: center;
 }
 
@@ -88,7 +101,7 @@ select {
 .checkbox-container {
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin: 15px;
 }
 
 .checkbox-container input[type="checkbox"] {
@@ -112,8 +125,9 @@ button:hover {
 .generated-numbers {
   margin-top: 20px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #393939;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #F0F3FA;
   overflow-wrap: break-word;
+  white-space: pre-line;
 }
