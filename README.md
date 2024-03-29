@@ -1,5 +1,5 @@
 # 🔢 DigiPlate
-[🔗 DigiPlate website](https://vignayy.github.io/digiplate/)
+🔗 [DigiPlate website](https://vignayy.github.io/digiplate/)
 
 DigiPlate is a unique vehicle number plate generator that combines numerology, luck, and personal preferences to help you find the perfect registration numbers for your vehicles. Whether you believe in numerology or simply want a registration number that aligns with your style, DigiPlate has got you covered!
 
