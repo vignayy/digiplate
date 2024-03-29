@@ -4,11 +4,9 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #F0F3FA;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,7 +53,7 @@ body {
 }
 
 .credits {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Arial', Helvetica, sans-serif;
   font-size: 12px;
   margin: 5px;
   text-align: center;
@@ -130,4 +128,6 @@ button:hover {
   background-color: #F0F3FA;
   overflow-wrap: break-word;
   white-space: pre-line;
+  overflow-y: auto;
+  max-height: 300px;
 }
