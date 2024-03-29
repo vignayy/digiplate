@@ -1,18 +1,25 @@
-body {
-  font-family: Arial, sans-serif;
+* {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #D5DEEF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
 }
 
 .container {
   max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
+  margin: 5px auto;
+  padding: 10px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
 
 .header {
@@ -20,7 +27,8 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
-  border: 1px solid #ddd;
+  background-color: #fff;
+  border: 1px solid #393939;
   border-radius: 5px;
   padding: 0.5rem;
 }
@@ -45,7 +53,7 @@ body {
 }
 
 .credits {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Arial', Helvetica, sans-serif;
   font-size: 12px;
   margin: 5px;
   text-align: center;
@@ -54,16 +62,19 @@ body {
 .credits-logo {
   width: 20px;
   height: 20px;
-  margin: 0 2px;
+  margin: 2px 3px;
   vertical-align: middle;
 }
 
 .description {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  font-size: 18px;
+  font-size: 14px;
   margin-bottom: 20px;
-  color: #333;
+  color: #393939;
+  background-color: #F0F3FA;
+  border-radius: 5px;
   text-align: center;
 }
 
@@ -88,7 +99,7 @@ select {
 .checkbox-container {
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin: 15px;
 }
 
 .checkbox-container input[type="checkbox"] {
@@ -99,7 +110,7 @@ button {
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
-  border: none;
+  border: 1.5px solid #393939;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -112,8 +123,12 @@ button:hover {
 .generated-numbers {
   margin-top: 20px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #393939;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #F0F3FA;
+  font-family:'Arial', Helvetica, sans-serif;
   overflow-wrap: break-word;
+  white-space: pre-line;
+  overflow-y: auto;
+  max-height: 300px;
 }
