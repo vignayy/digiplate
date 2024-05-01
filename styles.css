@@ -108,6 +108,7 @@ select {
 
  .generate-button button {
   padding: 10px 20px;
+  font-size: 14px;
   background-color: #007bff;
   color: #fff;
   border: 1.5px solid #393939;
@@ -155,9 +156,9 @@ select {
 
 .toast-container {
   position: fixed;
-  bottom: 20px;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
 }
 
 .toast {
