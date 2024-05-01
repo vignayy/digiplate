@@ -109,10 +109,13 @@
         <label for="includeIncreasingOrder">Increasing Order</label>
       </div>
 
-      <button type="submit">Generate Numbers</button>
+      <div class="generate-button" > <button type="submit">Generate Numbers</button> </div>
     </form>
 
-    <div id="generatedNumbers" class="generated-numbers"></div>
+    <div class="generated-container">
+      <div id="generatedNumbers" class="generated-numbers"></div>
+      <button id="copyButton" class="copy-button" style="display: none;"><img src="res/copy2.svg" alt="Copy Icon" class="copy-icon"></button>
+    </div>
   </div>
 
   <script src="main.js"></script>
