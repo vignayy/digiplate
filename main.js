@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
     toast.classList.add('toast');
     toastContainer.appendChild(toast);
     setTimeout(function () {
-      copyButton.innerHTML = '<img src="res/copy.svg" alt="Copy Icon" class="copy-icon">';
+      copyButton.innerHTML = '<img src="res/copy2.svg" alt="Copy Icon" class="copy-icon">';
       toastContainer.removeChild(toast);
     }, 1000);
   });
